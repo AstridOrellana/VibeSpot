@@ -1,4 +1,5 @@
 import React from 'react'
+import imagen from './imagen.png'
 
 export function Login() {
   return (
@@ -6,7 +7,7 @@ export function Login() {
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
             alt=" VibeSpot"
-            src="./public/logo vibespot.png"
+            src={imagen}
             className="mx-auto h-10 w-auto"
           />
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-white">
