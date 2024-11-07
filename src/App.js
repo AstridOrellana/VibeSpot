@@ -1,19 +1,23 @@
-import { Landingpage } from "./components/Landingpage";
+import Navbar from "./components/Navbar";
+import Page from "./components/Page";
+import Artists from "./components/Artists";
+import Playlists from "./components/Playlists";
 import Login from "./components/Login";
 import { Registro } from "./components/Registro";
 import React from "react";
-import Sidebar from "./components/Sidebar";
+
 
 function App () {
   return (
-    <div className="h-screen bg-black"> 
-    <div className="h-[90%] flex">
-        <Sidebar/>
-
+    <div> 
+    <div>        
 
     </div>
     <div/>
-
+        <Navbar/>
+        <Page/>
+        <Artists/>
+        <Playlists/>
         <Login/>
         <Registro/>
     </div>
