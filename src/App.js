@@ -1,10 +1,23 @@
-import Login from "./Login";
-import './index.css';
+import { Landingpage } from "./components/Landingpage";
+import Login from "./components/Login";
+import { Registro } from "./components/Registro";
+import React from "react";
+import Sidebar from "./components/Sidebar";
 
-export default function App() {
+function App () {
   return (
-    <>
-      <Login/>
-    </>
-  )
+    <div className="h-screen bg-black"> 
+    <div className="h-[90%] flex">
+        <Sidebar/>
+
+
+    </div>
+    <div/>
+
+        <Login/>
+        <Registro/>
+    </div>
+  );
 }
+
+export default App;
