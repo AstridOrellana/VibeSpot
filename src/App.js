@@ -1,10 +1,27 @@
-import Login from "./Login";
-import './index.css';
+import Navbar from "./components/Navbar";
+import Page from "./components/Page";
+import Artists from "./components/Artists";
+import Playlists from "./components/Playlists";
+import Login from "./components/Login";
+import { Registro } from "./components/Registro";
+import React from "react";
 
-export default function App() {
+
+function App () {
   return (
-    <>
-      <Login/>
-    </>
-  )
+    <div> 
+    <div>        
+
+    </div>
+    <div/>
+        <Navbar/>
+        <Page/>
+        <Artists/>
+        <Playlists/>
+        <Login/>
+        <Registro/>
+    </div>
+  );
 }
+
+export default App;
